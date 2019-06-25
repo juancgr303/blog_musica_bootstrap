@@ -1,0 +1,90 @@
+.musica-body {
+  background-color: black;
+}
+
+.encabezado {
+  background-color: rgba(0,122,191,0.92);
+  min-height: 10%;
+  border: none;
+}
+
+.logo-img {
+  width: 300px;
+}
+
+.redes {
+	text-align: right;
+	}
+
+.redes-img {
+	width: 40px;
+	margin: 4px;
+}
+
+.b-nav {
+	background-color: rgba(39,41,41,0.92);
+	color: black;
+}
+
+.cuerpo {
+	margin-top: 10px;
+}
+
+.blog {
+	background: rgba(227,227,227,1.00)
+}
+
+.blog h1{
+	margin-left: 60px;
+	text-shadow: 10px 10px 10px grey;
+}
+
+.blog p{
+	margin-left: 40px;
+	margin-right: 5px;
+	text-align: justify;
+}
+
+.blog img{
+	margin-left: 15px;
+	height: auto;
+	width: auto;
+	max-height: 300px;
+}
+
+.comentarios {
+	padding-left: 50px;
+	padding-right: 50px;
+}
+
+.buscador {
+	padding-left: 30px;
+}
+
+.boton-busqueda {
+	background-color: white;
+	padding: 20px;
+	
+}
+
+.opciones-busqueda {
+	background-color: white;
+	padding: 20px;
+}
+
+.busc-avan {
+	margin-top: 10px;
+  color: grey;
+  font-size: 18px;
+}
+
+.input-element {
+  width: 100%;
+  height: 30px;
+  padding: 10px;
+  color: black;
+  background-color: rgba(255,255,255,0.4);
+  border-radius: 5px;
+  margin-top: 10px;
+}
+

@@ -1,0 +1,125 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width initial-scale=1">
+    <meta name="author" content="Juan Camilo Gómez">
+    <title>Blog de Música Bootstrap</title>
+    <meta name="mobile-web-app-capable" content="yes">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/estilos.css">
+    <script src="js/bootstrap.min.js"></script>
+	</head>
+	<body class="musica-body">
+		<header class="encabezado">
+			<div class="container">
+				<div class="row align-items-end">
+					<div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 col-xl-4">
+						<img class="logo-img" alt="Music Blog" src="img/logo.svg"/>
+					</div>
+					<div class="col-xs col-sm col-md col-lg col-xl redes align-bottom"> 
+						<a href="https://www.facebook.com"><img alt="Facebook" class="redes-img" src="img/fb.png"/></a>
+						<a href="https://www.twitter.com"><img alt="Twitter" class="redes-img" src="img/tt.png"/></a>
+						<a href="https://www.instagram.com"><img alt="Instagram" class="redes-img" src="img/ig.png"/></a>
+					</div>
+				</div>
+			</div>
+		</header>
+			<nav class="nav nav-pills nav-fill b-nav">
+				<a class="nav-item nav-link active" href="#">Inicio</a>
+				<a class="nav-item nav-link" href="#">Artistas</a>
+				<a class="nav-item nav-link" href="#">Grupos</a>
+				<a class="nav-item nav-link" href="#">Top 10</a>
+				<a class="nav-item nav-link" href="#">Letras</a>
+				<a class="nav-item nav-link" href="#">Acordes</a>				
+			</nav>
+		<!--Inicio del Blog y Buscar-->
+		<div class="row cuerpo">
+			<div class="col-lg-8 col-md-12 col-sm-12 blog">
+				<!--Blog 1-->
+				<div class="row">
+					<h1>BIO Andrés Cepeda</h1>
+				</div>
+				<div class="row align-items-start">
+					<div class="col-lg-8 col-md-12 col-sm-12">
+						<p>Productor, cantante y compositor bogotano que cuenta con una trayectoria única, que le ha permitido girar por el mundo, ser portada de múltiples revistas y diarios, participar como jurado en programas de talento, lograr primeros lugares en la radio con innumerables sencillos, figurar en listados de  plataformas digitales, ser invitado a cantar en vivo y en estudio con artistas como: Fonseca, Ricardo Montaner, Kany García, Tommy Torres, Juan Luis Guerra, Leo Dan entre otros; ser nominado y ganador de Grammy latino, compartir experiencias inigualables con fans, proponer diferentes formatos musicales como, Big Band, Sinfónico, guitarra y voz y más recientemente Cepeda en Tablas un espectáculo que mezcla el teatro con la música; todo esto ratifica a Andrés Cepeda como uno de los artistas más respetados y queridos de Colombia.
+						</p>
+					</div>
+					<div class="col-lg-4 col-md-12 col-sm-12 text-center">
+						<img alt="cepeda" class="img-thumbnail" src="img/cepeda.png"/>
+					</div>
+				</div>
+				<div class="input-group mb-3 comentarios">
+					<input type="text" class="form-control" placeholder="Comentarios" aria-label="Comentarios" aria-describedby="button-addon2">
+					<div class="input-group-append">
+						<button class="btn btn-outline-secondary" type="button" id="button-addon2">Enviar</button>
+					</div>
+				</div>
+				<!--Separador-->
+				<div>
+					<hr/>
+				</div>
+				<!--Blog 2-->
+				<div class="row align-items-center">
+					<h1>Andrés Cepeda y Juanes se reencuentran </h1>
+				</div>
+				<div class="row align-items-center">
+					<div class="col-lg-8 col-md-12 col-sm-12 col-last">
+						<p>A través de su cuenta de Instagram, Andrés Cepeda, muy emocionado, compartió varias fotografías de un encuentro que sostuvo con Juanes en lo que parece ser los camerinos del Movistar Arena de Bogotá. "¿Ustedes pueden creer que este encuentro y este abrazo nos han estado esperando por más de 20 años?", escribió Cepeda en la publicación, en la que, además, confesó su admiración y respeto por Juanes.
+						</p>
+					</div>
+					<div class="col-lg-4 col-md-12 col-sm-12 text-center order-first ">
+						<img alt="cepeda" class="img-thumbnail" src="img/reencuentro.jpeg"/>
+					</div>
+				</div>
+				<div class="input-group mb-3 comentarios">
+					<input type="text" class="form-control" placeholder="Comentarios" aria-label="Comentarios" aria-describedby="enviar">
+					<div class="input-group-append">
+						<button class="btn btn-outline-secondary" type="button" id="enviar">Enviar</button>
+					</div>
+				</div>
+			</div>
+			<!--Blog fin-->
+			<div class="col-lg-4 col-md-12 col-sm-12 buscador">
+				<div class="row">
+					<!--boton buscador-->
+					<div class="col-lg-12 col-md-6 col-sm-12 input-group mb-3 boton-busqueda">
+						<input type="text" class="form-control" placeholder="Buscar..." aria-label="Buscar" aria-describedby="Buscar">
+						<div class="input-group-append">
+							<button class="btn btn-outline-secondary" type="button" id="Buscar">Buscar</button>
+						</div>
+					</div>
+					<!--Opciones de Busqueda-->
+					<div class="col-lg-12 col-md-6 col-sm-12 input-group mb-3 opciones-busqueda">
+						<form role="Form">
+           	 <fieldset>
+								<legend class="busc-avan">Buscador Avanzado</legend>
+							 	<input type="text" name="nombre" id="nombre" placeholder="Nombre Post..." class="form-control-lg input-element" readonly/>
+									<small id="nombre1" class="form-text text-muted">
+									Escribe el nombre del post que buscas.
+									</small>
+							 	<input type="text" name="artista" id="artista" placeholder="Artista..." class="form-control-lg input-element" readonly/>
+									<small id="artista1" class="form-text text-muted">
+									Escribe el artista que buscas.
+									</small>
+							 	<legend class="busc-avan">Seleccionar Categoria</legend>
+							 	<div class="form-check form-check-inline ">
+									<input class="form-check-input" type="checkbox" id="artist" value="option1">
+									<label class="form-check-label" for="Checkbox">Artistas</label>
+									<input class="form-check-input" type="checkbox" id="grupos" value="option2">
+									<label class="form-check-label" for="Checkbox">Grupos</label>
+									<input class="form-check-input" type="checkbox" id="acordes" value="option3">
+									<label class="form-check-label" for="Checkbox">Acordes</label>
+									
+								</div>
+							 	
+						</fieldset>
+						</form>		
+								
+						
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
